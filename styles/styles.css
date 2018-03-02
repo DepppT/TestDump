@@ -1,0 +1,64 @@
+html {
+    font-size:15px;
+    font-family: 'Patua One', cursive;
+    font-weight: normal;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+div.navbar {
+    background-color: #575757;
+    overflow: hidden;
+    border-radius: 0px 0px 10px 10px;
+    padding: 0;
+    box-shadow: 5px 5px 10px grey;
+}
+
+a {
+    display: block;
+    padding: 10px 5px;
+    font-size: 25px;
+    text-align: center;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+#home {
+    float: left;
+
+}
+
+#name {
+    float: right;
+}
+
+a:hover {
+    background-color: black;
+}
+
+div.block {
+    overflow: hidden;
+    display: inline-block;
+    margin: 10px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+    box-shadow: 5px 5px 10px grey;
+    text-align: left;
+    padding: 5px;
+}
+
+#blockContainer {
+    padding: 10px;
+    margin: auto;
+    border: 3px solid red;
+    text-align: center;
+}
+
